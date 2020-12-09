@@ -1,0 +1,238 @@
+@charset "utf-8"
+
+body {}
+
+div#interface {
+	font-family: Comic Sans MS;
+	background-color: #87ceeb;
+	color: #000000;
+	margin: auto -8px auto -7px;
+}
+
+h2, h3, h4 {
+	text-align: center;
+}
+
+h2 {
+	font-size: 41px;
+}
+
+h3 {
+	font-size: 37px;
+}
+
+h4 {
+	font-size: 31px;
+}
+
+p {
+	font-size: 47px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 27px;
+	color: #000000;
+}
+
+li {
+	font-size: 27px;
+}
+
+/* Cabeçalho */
+
+header {
+	width: 100%;
+	background-color: #262626;
+	color: #9C9C9C;
+	border-bottom: 3px solid #9C9C9C;
+	margin: -21px auto 10px -8px;
+}
+
+nav#cyber {
+	padding-top: 5px;
+}
+
+nav#cyber h1 {
+	font-size: 25px;
+	text-align: left;
+	color: #ffc62c;
+	margin-top: 16px;
+	margin-left: 25px;
+	margin-bottom: 13px;
+}
+
+nav#cyber a:visited{
+	color: #ffc62c;
+}
+
+nav#menu {
+	display: block;
+	list-style: none;
+	border: 1px solid #c0c0c0;
+	float: ft;
+	margin-right: -7px;
+}
+
+nav#menu h2 {
+	display: none;
+}
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -17px;
+	right: -7px;
+}
+
+nav#menu ul li {
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+	-webkit-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	transition: background-color 1s;
+}
+
+nav#menu li:hover {
+	background-color: #606060;
+}
+nav#menu a {
+	color: #000000;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+/* Artigo principal e seções */
+
+article {
+	width: 728px;
+	background-color: #7FFFD4 /*00ff00*/;
+	color: #000000;
+	margin: 10px auto 10px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;
+	float:center;
+}
+
+article p {
+	margin-left: 77px;
+}
+
+section {
+	width: 560px;
+	background-color: #7FFFD4/*00ff00*/;
+	color: #000000;
+	margin: 10px auto 10px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;
+	float:center;
+}
+
+section#programacao {
+	width: 560px;
+	background-color: #00ff00;
+	color: #000000;
+	margin: 10px auto 10px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;
+	float:center;
+}
+
+aside#aside{
+	width: 560px;
+	background-color: #00ff00;
+	margin: 10px auto 10px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;
+	float:center;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+img#whatsapp {
+	display: inline-flex;
+	width: 16px;
+	margin-bottom: 0px;
+}
+
+img#vendedorvirtual {
+	width: 280px;
+}
+
+figcaption {
+	text-align: center;
+}
+
+table {
+	width: 80%;
+	margin: auto;
+	background-color: #7FFFD4;
+	color: #000000;
+}
+
+table, th, td, tr {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+table#tabela {
+	margin-top: 67px;
+	margin-bottom: 10px;
+}
+
+table#tabela th {
+	font-size: 41px;
+}
+
+table#tabela td {
+	font-size: 37px;
+	padding: 20px;
+}
+
+p#retorno {
+	text-align: center;
+	color: #000000;
+	text-decoration: none;
+}
+
+p#i /* Usado na página: contato.html */ {
+	font-size: 31px;
+}
+
+p#links /* Usado nas páginas dos cinemas para diferenciar os links oficiais dos filmes */ {
+	text-align: center;
+}
+
+/* Rodapé */
+footer {
+	width: 100%;
+	background-color: #262626/*#ffc62c*/;
+	border-top: 3px solid #9c9c9c;
+	margin: 10px -10px -15px -8px;
+}
+
+nav#footer {
+	display: block;
+	list-style:none;
+	border-top: 1px solid #c0c0c0;
+}
+
+nav#footer p {
+	text-align: center;
+	color: #9c9c9c;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
