@@ -7,8 +7,14 @@ div#interface {
 	background-color: #ffffff;
 	margin: auto -8px auto -7px;
 }
+div.programacao{
+	border: #000000 1px solid;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
 	text-align: center;
 }
 
@@ -160,7 +166,7 @@ aside#banner {
 }
 
 aside#grupoWhatsApp{
-	width: 728px;
+	width: 560px;
 	background-color: #34af23;
 	color: #000000;
 	margin: 10px auto 10px auto;
