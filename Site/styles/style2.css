@@ -6,6 +6,7 @@ div#interface {
 	font-family: "Comic Sans MS";
 	background-color: #ffffff;
 	margin: auto -8px auto -7px;
+	font-size: 12pt;
 }
 div.programacao{
 	border: #000000 1px solid;
