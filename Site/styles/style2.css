@@ -6,6 +6,17 @@ div#interface {
 	font-family: "Comic Sans MS";
 	background-color: #ffffff;
 	margin: auto -8px auto -7px;
+<<<<<<< Updated upstream
+=======
+	font-size: 12pt;
+}
+div.programacao{
+	border: #000000 1px solid;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	background-color: #ffffff;
+>>>>>>> Stashed changes
 }
 
 h1, h2, h3, h4 {
