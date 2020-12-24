@@ -7,7 +7,7 @@
 		</url>
 		<url>
 			<loc>https://cyberservice.com.br/filmes.html</loc>
-			<lastmod>2020-11-23</lastmod>
+			<lastmod>2020-12-23</lastmod>
 			<changefreq>weekly</changefreq>
 		</url>
 		<url>
@@ -123,6 +123,16 @@
 		<url>
 			<loc>https://cyberservice.com.br/filmes/2020theBrokenHeartsGallery.html</loc>
 			<lastmod>2020-09-04</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+		<url>
+			<loc>https://cyberservice.com.br/filmes/2020mulhermaravilha1984.html</loc>
+			<lastmod>2020-12-23</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+		<url>
+			<loc>https://cyberservice.com.br/filmes/2020umTioQuasePerfeito2.html</loc>
+			<lastmod>2020-12-23</lastmod>
 			<changefreq>weekly</changefreq>
 		</url>
 </urlset>
