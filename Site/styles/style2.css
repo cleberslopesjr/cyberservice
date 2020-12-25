@@ -151,6 +151,9 @@ article {
 	/*float:center;*/
 }
 
+.negrito {
+	font-weight: bold;
+
 table#cyber {
 	background-color: #7FFFD4;
 	color: #000000;
