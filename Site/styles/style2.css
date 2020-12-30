@@ -184,9 +184,7 @@ section#programacao {
 	float:center;
 }
 */
-p#mapa {
-	text-align: center;
-}
+
 
 aside#banner {
 	position: relative;
@@ -229,6 +227,313 @@ figcaption {
 }
 
 .retorno {
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Contato */
+p#i {
+	font-size: 16pt;
+}
+
+p.links {
+	text-align: center;
+}
+
+h3.estreia {
+	border: 1px solid #000000;
+}
+
+/* Rodapé */
+footer {
+	width: 100%;
+	background-color: #262626/*#ffc62c*/;
+	border-top: 3px solid #9c9c9c;
+	margin: 10px -10px -15px -8px;
+}
+
+nav#footer {
+	display: block;
+	list-style:none;
+	border-top: 1px solid #c0c0c0;
+}
+
+nav#footer p {
+	text-align: center;
+	color: #9c9c9c;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+
+a[href^="tel:"]:before {
+	content: "\260E";
+	margin-right: 0.5em;
+}
+
+/******* Responsividade *******/
+
+@media only screen and (max-width: 600px);
+
+body {}
+
+div#interface {
+	font-family: "Comic Sans MS";
+	background-color: #ffffff;
+	margin: auto -8px auto -7px;
+	font-size: 12pt;
+}
+
+
+h1, h2, h3, h4, h5 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+/*h2 {
+	font-size: 3em;
+}*/
+
+h3 {
+	font-size: 2em;
+}
+
+h4 {
+	font-size: 1.5em;
+}
+
+p {
+	font-size: 7em;
+	color: #000000;
+	font-size: 0.3em;
+}
+
+.programacaoPreEstreia{
+	max-width: 540px;
+	border: #000000 1px solid;
+	margin: 10px auto 10px auto;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	background-color: #ffffff;
+	padding: 10px;
+}
+
+p.programacao {
+	font-size: 1.4em;
+	border: 1px solid #000000;
+	background-color: #ffffff;
+	width: 460px;
+	margin: 10px;
+	padding: 10px
+}
+
+.negrito {
+	font-weight: bold;
+}
+
+/* Cabeçalho */
+header#menuCabecalho {
+	width: 100%;
+	background-color: #262626;
+	color: #9C9C9C;
+	border-bottom: 3px solid #9C9C9C;
+	margin: -21px -7px 1px -8px;
+}
+
+img#logo {
+	height: 60px;
+	margin: auto auto 0px -33px;
+	padding-top: 10px;
+	/*padding-bottom: 0px;*/
+}
+
+nav#cyber {
+	padding-top: 5px;
+}
+
+nav#cyber h1 {
+	color: #ffc62c;
+	font-size: 25pt;
+	text-align: left;
+	margin-top: 15px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+nav#menu {
+	display: block;
+	list-style: none;
+	border: 1px solid #c0c0c0;
+	margin-top: -10px;
+	margin-right: -7px;
+}
+
+nav#menu h2 {
+	display: none;
+}
+
+.ocultar {
+	display: none;
+}
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -14px;
+	right: -7px;
+}
+
+nav#menu ul li {
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+	/*-webkit-transition: background-color 1s;*/
+	/*-o-transition: background-color 1s;*/
+	transition: background-color 1s;
+}
+
+nav#menu li:hover {
+	background-color: #606060;
+}
+nav#menu a {
+	color: #000000;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+/*p#santaClara {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	border: 1px solid #000000;
+	padding: 10px;
+	background-color: #ffffff;
+}*/
+
+/*p#cinemark {
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+	padding: 10px;
+	background-color: #ffffff;
+}*/
+
+/* Artigo principal e seções */
+
+article {
+	width: 500px;
+	background-color: #efefef;
+	color: #000000;
+	margin: 10px auto 10px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;
+	/*float:center;*/
+}
+
+/*article h2 {
+	font-size: 3em;
+}*/
+
+table#cyber {
+	background-color: #7FFFD4;
+	color: #000000;
+}
+
+figcaption {
+	font-size: 7pt;
+}
+
+/*
+section {
+	width: 560px;
+	background-color: #7FFFD4;
+	color: #000000;
+	margin: 10px auto 10px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;
+	float:center;
+}
+
+section#programacao {
+	width: 560px;
+	background-color: #00ff00;
+	color: #000000;
+	margin: 10px auto 10px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;
+	float:center;
+}
+*/
+p#mapa {
+	text-align: center;
+}
+
+aside#banner {
+	position: relative;
+	width: 160px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 110px;
+}
+
+/******* Banner do Grupo no WhatsApp *******/
+
+aside#grupoWhatsApp{
+	width: 500px;
+	background-color: #34af23;
+	color: #000000;
+	margin: 10px auto 10px auto;
+	padding: 10px;
+}
+
+aside#grupoWhatsApp h2 {
+	font-size: 2em;
+}
+
+aside#grupoWhatsApp p {
+	font-size: 1.5em;
+}
+
+/******* Fim *******/
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+img#whatsapp {
+	display: inline-flex;
+	width: 16px;
+	margin-bottom: 0px;
+}
+
+img#vendedorvirtual {
+	width: 280px;
+}
+
+figcaption {
+	text-align: center;
+}
+
+p.retorno {
+	font-size: 1.5em;
 	text-align: center;
 	text-decoration: none;
 }
