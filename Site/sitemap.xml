@@ -140,9 +140,14 @@
 			<lastmod>2021-01-03</lastmod>
 			<changefreq>weekly</changefreq>
 		</url>
-				<url>
+		<url>
 			<loc>https://cyberservice.com.br/filmes/2020amizadeMaldita.html</loc>
 			<lastmod>2020-12-26</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+		<url>
+			<loc>https://cyberservice.com.br/filmes/2021monsterHunter.html</loc>
+			<lastmod>2021-01-05</lastmod>
 			<changefreq>weekly</changefreq>
 		</url>
 </urlset>
