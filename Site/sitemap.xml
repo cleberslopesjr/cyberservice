@@ -7,12 +7,12 @@
 		</url>
 		<url>
 			<loc>https://cyberservice.com.br/filmes.html</loc>
-			<lastmod>2021-01-03</lastmod>
+			<lastmod>2021-01-17</lastmod>
 			<changefreq>weekly</changefreq>
 		</url>
 		<url>
 			<loc>https://cyberservice.com.br/santaClara.html/</loc>
-			<lastmod>2020-12-24</lastmod>
+			<lastmod>2021-01-17</lastmod>
 			<changefreq>weekly</changefreq>
 		</url>
 		<url>
@@ -148,6 +148,11 @@
 		<url>
 			<loc>https://cyberservice.com.br/filmes/2021monsterHunter.html</loc>
 			<lastmod>2021-01-05</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+		<url>
+			<loc>http://127.0.0.1:52362/Site/filmes/2020trolls2.html</loc>
+			<lastmod>2021-01-17</lastmod>
 			<changefreq>weekly</changefreq>
 		</url>
 </urlset>
