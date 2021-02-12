@@ -154,6 +154,10 @@ article {
 	/*float:center;*/
 }
 
+p.center {
+	text-align: center;
+}
+
 table#cyber {
 	background-color: #7FFFD4;
 	color: #000000;
