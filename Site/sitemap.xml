@@ -12,7 +12,7 @@
 		</url>
 		<url>
 			<loc>https://cyberservice.com.br/santaClara.html/</loc>
-			<lastmod>2021-02-12</lastmod>
+			<lastmod>2021-02-13</lastmod>
 			<changefreq>weekly</changefreq>
 		</url>
 		<url>
@@ -173,6 +173,11 @@
 		<url>
 			<loc>https://cyberservice.com.br/filmes/2021tom&JerryOFilme.html</loc>
 			<lastmod>2021-02-12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+		<url>
+			<loc>https://cyberservice.com.br/filmes/2020frozen2.html</loc>
+			<lastmod>2021-02-13</lastmod>
 			<changefreq>weekly</changefreq>
 		</url>
 </urlset>

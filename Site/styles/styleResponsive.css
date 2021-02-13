@@ -1,0 +1,374 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+body {
+	font-family: "Comic Sans MS";
+	background-color: #ffffff;
+    width: 100%;
+    height: auto;
+	font-size: 12pt;
+}
+
+h1, h2, h3, h4, h5 {
+	text-align: center;
+}
+
+p {
+	color: #000000;
+	font-size: 12pt;
+}
+
+figure {
+    display: block;
+    margin: 0px auto 0px auto;
+    border: none;
+    padding: 0px;
+
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+figcaption {
+    font-size: 7pt;
+	text-align: center;
+}
+
+/* Cabeçalho */
+header#menuCabecalho {
+	width: 100%;
+    height: auto;
+	background-color: #262626;
+	color: #9C9C9C;
+	border-bottom: 3px solid #9C9C9C;
+	margin: -21px -7px 1px -8px;
+}
+
+img#logo {
+    width: 120px;
+	height: auto;
+	margin: auto auto 0px -33px;
+	padding-top: 10px;
+}
+
+nav#cyber {
+	padding-top: 5px;
+}
+
+nav#cyber h1 {
+	color: #ffc62c;
+	font-size: 25pt;
+	text-align: left;
+	margin-top: 15px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+nav#menu {
+	display: block;
+	list-style: none;
+	border: 1px solid #c0c0c0;
+	margin-top: -10px;
+	margin-right: -7px;
+}
+
+nav#menu h2 {
+	display: none;
+}
+
+.ocultar {
+	display: none;
+}
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -14px;
+	right: -7px;
+}
+
+nav#menu ul li {
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s;
+}
+
+nav#menu li:hover {
+	background-color: #606060;
+}
+nav#menu a {
+	color: #000000;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+p#santaClara {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	border: 1px solid #000000;
+	padding: 10px;
+	background-color: #ffffff;
+}
+
+p#cinemark {
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+	padding: 10px;
+	background-color: #ffffff;
+}
+
+/* Artigo principal */
+article {
+	width: 560px;
+	background-color: #efefef;
+	color: #000000;
+	margin: 10px auto 10px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;
+	float: left;
+}
+
+.cartaz img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.programacao{
+	width: 100%;
+	border: #000000 1px solid;
+	margin: 10px auto 10px auto;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	background-color: #ffffff;
+	padding: 10px;
+}
+
+.negrito {
+	font-weight: bold;
+}
+
+p.center {
+	text-align: center;
+}
+
+table#cyber {
+	background-color: #7FFFD4;
+	color: #000000;
+}
+
+/* "Rodapés" dos artigos */
+.rodapeArtigo {
+    background-color: #0000ff;
+    padding: 10px;
+}
+.rodapeArtigo p {
+    color: #ffffff;
+}
+.rodapeArtigo a {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+
+aside#banner {
+    display: block;
+	width: 100%;
+    height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 110px;
+}
+
+/* Banner do grupo no WhatsApp, o Adoro cinema */
+aside#grupoWhatsApp{
+	width: 100%;
+    height: auto;
+	background-color: #34af23;
+	color: #000000;
+	margin: 10px auto 10px auto;
+	padding: 10px;
+}
+
+#grupoWhatsApp p {
+    text-align: center;
+}
+
+#grupoWhatsApp img {
+    display: block;
+    width: 77px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Botão de retorno ao topo de página */
+.retorno {
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Página: Contato */
+p#i {
+	font-size: 16pt;
+}
+
+p.links {
+	text-align: center;
+}
+
+h3.estreia {
+	border: 1px solid #000000;
+}
+
+/* Botão de retorno ao topo da página */
+#butaoTopo {
+    text-align: center;
+    margin: 10px;
+}
+
+/* Rodapé */
+footer {
+	width: 100%;
+    height: auto;
+	background-color: #262626/*#ffc62c*/;
+	list-style:none;
+	border-top: 1px solid #c0c0c0;
+}
+
+footer p {
+	text-align: center;
+	color: #9c9c9c;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+
+a[href^="tel:"]:before {
+	content: "\260E";
+	margin-right: 0.5em;
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px){
+    body {
+        background-color: lightblue;
+        max-width: 600px;
+    }
+    h1 {
+        font-size: 21pt;
+    }
+    
+    p {
+        font-size: 14pt;
+    }
+
+    article {
+        max-width: 580px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) {
+
+    body {
+        background-color: lightcoral;
+    }
+
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    body {
+        background-color: lightgreen;
+    }
+
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    body {
+        background-color: lightslategray;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    body {
+        background-color: olive;
+    }
+
+}
