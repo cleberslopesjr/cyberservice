@@ -72,19 +72,6 @@ img#logo {
 	padding-top: 10px;
 }
 
-nav#cyber {
-	padding-top: 5px;
-}
-
-nav#cyber h1 {
-	color: #ffc62c;
-	font-size: 25pt;
-	text-align: left;
-	margin-top: 15px;
-	margin-left: 20px;
-	margin-bottom: 10px;
-}
-
 nav#menu {
 	display: block;
 	list-style: none;
@@ -154,7 +141,9 @@ p#cinemark {
 
 /* Artigo principal */
 article {
-	width: 560px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: #efefef;
 	color: #000000;
 	margin: 10px auto 10px auto;
@@ -169,7 +158,8 @@ article {
     margin-right: auto;
 }
 
-.programacao{
+div.programacao{
+	display: block;
 	width: 100%;
 	border: #000000 1px solid;
 	margin: 10px auto 10px auto;
@@ -205,10 +195,14 @@ table#cyber {
     color: #ffffff;
 }
 
+aside {
+	width: 220px;
+	height: auto;
+}
 
+/* Banner da Magalú em JavaScript */
 aside#banner {
-    display: block;
-	width: 100%;
+	width: 220px;
     height: auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -225,7 +219,6 @@ aside#grupoWhatsApp{
 	margin: 10px auto 10px auto;
 	padding: 10px;
 }
-
 #grupoWhatsApp p {
     text-align: center;
 }
@@ -288,22 +281,38 @@ a[href^="tel:"]:before {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media screen and (max-width: 600px){
-    body {
-        background-color: lightblue;
-        max-width: 600px;
+@media only screen and (max-width: 600px){
+
+	body {
+        background-color:#ffffff;
+        max-width: 100%;
     }
-    h1 {
-        font-size: 21pt;
-    }
+
+	article {
+		display: block;
+		width: auto;
+	}
+
+	h2 {
+		font-size: 17pt;
+	}
     
     p {
         font-size: 14pt;
     }
 
-    article {
-        max-width: 580px;
-    }
+	.col-p-1 {width: 100%;}
+	.col-p-2 {width: 16.66%;}
+	.col-p-3 {width: 25%;}
+	.col-p-4 {width: 33.33%;}
+	.col-p-5 {width: 41.66%;}
+	.col-p-6 {width: 50%;}
+	.col-p-7 {width: 58.33%;}
+	.col-p-8 {width: 66.66%;}
+	.col-p-9 {width: 75%;}
+	.col-p-10 {width: 83.33%;}
+	.col-p-11 {width: 91.66%;}
+	.col-p-12 {width: 100%;}
 
 }
 
@@ -313,6 +322,11 @@ a[href^="tel:"]:before {
     body {
         background-color: lightcoral;
     }
+
+	article {
+		display: block;
+		width: auto;
+	}
 
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
@@ -336,6 +350,11 @@ a[href^="tel:"]:before {
         background-color: lightgreen;
     }
 
+	article {
+		display: block;
+		width: auto;
+	}
+
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
@@ -357,11 +376,10 @@ a[href^="tel:"]:before {
     body {
         background-color: lightslategray;
     }
-
-    h1 {
-        font-size: 32px;
-    }
-
+	article {
+		display: block;
+		width: auto;
+	}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -370,5 +388,25 @@ a[href^="tel:"]:before {
     body {
         background-color: olive;
     }
+
+	article {
+		display: block;
+		width: auto;
+	}
+
+/* For desktop: */
+.col-gg-1 {width: 8.33%;}
+.col-gg-2 {width: 16.66%;}
+.col-gg-3 {width: 25%;}
+.col-gg-4 {width: 33.33%;}
+.col-gg-5 {width: 41.66%;}
+.col-gg-6 {width: 50%;}
+.col-gg-7 {width: 58.33%;}
+.col-gg-8 {width: 66.66%;}
+.col-gg-9 {width: 75%;}
+.col-gg-10 {width: 83.33%;}
+.col-gg-11 {width: 91.66%;}
+.col-gg-12 {width: 100%;}
+}
 
 }

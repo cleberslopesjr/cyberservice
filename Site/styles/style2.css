@@ -85,6 +85,10 @@ nav#menu h2 {
 	display: none;
 }
 
+nav#menu p {
+	display: none;
+}
+
 .ocultar {
 	display: none;
 }

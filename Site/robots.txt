@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /santaclara2.html
+Sitemap: sitemap.xml
