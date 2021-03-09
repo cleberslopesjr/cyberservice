@@ -125,6 +125,7 @@ p#santaClara {
 	border: 1px solid #000000;
 	padding: 10px;
 	background-color: #ffffff;
+	width: 100%;
 }
 
 p#cinemark {
@@ -137,6 +138,7 @@ p#cinemark {
 	border-left: 1px solid #000000;
 	padding: 10px;
 	background-color: #ffffff;
+	width: 100%;
 }
 
 /* Artigo principal */
@@ -146,10 +148,19 @@ article {
 	margin-right: auto;
 	background-color: #efefef;
 	color: #000000;
+	width: 100%;
 	margin: 10px auto 10px auto;
 	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
 	padding: 10px;
 	float: left;
+}
+
+#programacao {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	width: 100%;
 }
 
 .cartaz img {
@@ -196,8 +207,11 @@ table#cyber {
 }
 
 aside {
+	display: block;
 	width: 220px;
 	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Banner da Magalú em JavaScript */
@@ -212,15 +226,17 @@ aside#banner {
 
 /* Banner do grupo no WhatsApp, o Adoro cinema */
 aside#grupoWhatsApp{
+	display: block;
 	width: 100%;
     height: auto;
 	background-color: #34af23;
 	color: #000000;
 	margin: 10px auto 10px auto;
 	padding: 10px;
+	text-align: center;
 }
 #grupoWhatsApp p {
-    text-align: center;
+    
 }
 
 #grupoWhatsApp img {
@@ -278,42 +294,6 @@ a[href^="tel:"]:before {
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px){
-
-	body {
-        background-color:#ffffff;
-        max-width: 100%;
-    }
-
-	article {
-		display: block;
-		width: auto;
-	}
-
-	h2 {
-		font-size: 17pt;
-	}
-    
-    p {
-        font-size: 14pt;
-    }
-
-	.col-p-1 {width: 100%;}
-	.col-p-2 {width: 16.66%;}
-	.col-p-3 {width: 25%;}
-	.col-p-4 {width: 33.33%;}
-	.col-p-5 {width: 41.66%;}
-	.col-p-6 {width: 50%;}
-	.col-p-7 {width: 58.33%;}
-	.col-p-8 {width: 66.66%;}
-	.col-p-9 {width: 75%;}
-	.col-p-10 {width: 83.33%;}
-	.col-p-11 {width: 91.66%;}
-	.col-p-12 {width: 100%;}
-
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -392,6 +372,20 @@ a[href^="tel:"]:before {
 	article {
 		display: block;
 		width: auto;
+		max-width: 820px;
+	}
+
+	#santaClara {
+		max-width: 780px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#cinemark {
+		max-width: 740px;
+		margin: 10px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 /* For desktop: */
@@ -407,6 +401,4 @@ a[href^="tel:"]:before {
 .col-gg-10 {width: 83.33%;}
 .col-gg-11 {width: 91.66%;}
 .col-gg-12 {width: 100%;}
-}
-
 }
