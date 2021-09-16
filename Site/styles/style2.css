@@ -1,10 +1,25 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
 body {}
 
 div#interface {
 	font-family: "Comic Sans MS", 'Open Sans', sans-serif;
-	background-color: #ffffff;
 	margin: auto -8px auto -7px;
 	font-size: 12pt;
 }
@@ -37,6 +52,11 @@ p {
 .negrito {
 	font-weight: bold;
 }
+
+.riscado {
+	text-decoration: line-through;
+}
+
 p.programacao {
 	border: 1px solid #000000;
 	background-color: #ffffff;
@@ -157,7 +177,13 @@ article {
 	padding: 10px;
 	/*float:center;*/
 }
-
+iframe {
+	border: none;
+	display: block;
+	height: 292px;
+	margin: auto;
+	width: 520px;
+}
 p.center {
 	text-align: center;
 }
@@ -169,6 +195,19 @@ table#cyber {
 
 figcaption {
 	font-size: 7pt;
+}
+.rodapeArtigo {
+	background-color: #0000ff;
+	padding: 10px;
+}
+
+.rodapeArtigo a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.rodapeArtigo p {
+	color: #ffffff;
 }
 
 /*
