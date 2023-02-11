@@ -293,6 +293,19 @@ h3.estreia {
 }
 
 /* Rodapé */
+
+/* Redes Sociais*/
+
+#redesocial ul {
+	list-style: none;
+}
+
+#redesocial ul li a {
+	color: #c0c0c0;
+	;
+	text-decoration: none;
+}
+
 footer {
 	width: 100%;
 	background-color: #262626/*#ffc62c*/;
