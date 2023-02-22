@@ -288,23 +288,40 @@ p#i {
 	text-align: center;
 }
 
+/* Estilizações para as tags <mark> */
+
+mark {
+	padding: 5px;
+}
+
+.original {
+	background-color: #db2f2f;
+	border-radius: 50%;
+	color: #ffffff;
+	padding: 4px;
+}
+
+.dublado {
+	background-color: #db2f2f;
+	border-radius: 50%;
+	color: #ffffff;
+	padding: 3px;
+}
+
+.treisD {
+	background-color: #0000ff;
+	border-radius: 50%;
+	color: #ffffff;
+	padding: 2px;
+}
+
+/* Fim das estilizações das tags <mark> */
+
 h3.estreia {
 	border: 1px solid #000000;
 }
 
 /* Rodapé */
-
-/* Redes Sociais*/
-
-#redesocial ul {
-	list-style: none;
-}
-
-#redesocial ul li a {
-	color: #c0c0c0;
-	;
-	text-decoration: none;
-}
 
 footer {
 	width: 100%;
@@ -313,13 +330,37 @@ footer {
 	margin: 10px -10px -15px -8px;
 }
 
-nav#footer {
+/* Redes Sociais*/
+
+#redessociais {
+	display: block;
+	margin: auto;
+	width: 560px;
+}
+
+#redessociais h2 {
+	color: #9c9c9c;
+}
+
+#redessociais ul {
+	list-style: none;
+}
+
+#redessociais ul li a {
+	color: #c0c0c0;
+	;
+	text-decoration: none;
+}
+
+
+
+#footer {
 	display: block;
 	list-style:none;
 	border-top: 1px solid #c0c0c0;
 }
 
-nav#footer p {
+#footer p {
 	text-align: center;
 	color: #9c9c9c;
 	padding-top: 0px;
