@@ -294,6 +294,11 @@ mark {
 	padding: 5px;
 }
 
+.destaque {
+	background-color: #ffff00;
+	padding: 5px;
+}
+
 .original {
 	background-color: #db2f2f;
 	border-radius: 50%;
