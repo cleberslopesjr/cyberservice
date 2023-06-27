@@ -199,6 +199,8 @@ figcaption {
 }
 .rodapeArtigo {
 	background-color: #0000ff;
+	border: none;
+	margin: auto;
 	padding: 10px;
 }
 
