@@ -255,6 +255,15 @@ aside#grupoWhatsApp{
 	/*float:center;*/
 }
 
+aside.aside {
+	width: 560px;
+	background-color: #ffffff;
+	border: #000000 1px solid;
+	border-radius: 50px;
+	margin: 10px auto 10px auto;
+	padding: 7px;
+}
+
 img {
 	display: block;
 	margin-left: auto;
